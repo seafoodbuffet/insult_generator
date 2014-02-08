@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The ultimate insult generator">
     <meta name="author" content="seafoodbuffet">
+	<meta name="apple-mobile-web-app-capable" content="yes">
 
     <title>The ultimate insult generator</title>
 
+	<link rel="apple-touch-icon" href="apple-touch-icon-152x152.png"/>	
 	<link rel="stylesheet" href="bootstrap.min.css">	
 	<link rel="stylesheet" href="insult.css">
+	<link rel="stylesheet" href="add2home.css">
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -64,6 +68,11 @@
 		document.getElementById("insultButton").onclick = function() {
 			Insulter.handler(document.getElementById("insultContent"));
 		};
+		var addToHomeConfig = {
+			touchIcon:true,
+			returningVistor: true
+		};		
 	</script>
+	<script type="application/javascript" src="add2home.js"></script>	
   </body>
 </html>
