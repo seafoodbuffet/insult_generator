@@ -1,0 +1,2 @@
+#The ultimate insult generator
+Inspired by [this post](http://www.reddit.com/r/funny/comments/1xa0k9/ill_be_ready_the_next_time_i_get_called/) on reddit. Allows you to quickly generate a spiffy (and pithy) insult. Look for an upcoming release to include an insulting API.
